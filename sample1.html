@@ -22,10 +22,18 @@
           ],
           datasets: [
             {
-              label: 'My First dataset',
+              label: 'line1',
+              fill: false,
               backgroundColor: 'rgb(255, 99, 132)',
               borderColor: 'rgb(255, 99, 132)',
               data: [0, 10, 5, 2, 20, 30, 45],
+            },
+            {
+              label: 'line2',
+              fill: false,
+              backgroundColor: 'blue',
+              borderColor: 'blue',
+              data: [5, 15, 15, 25, 25, 30, 35],
             },
           ],
         },
@@ -36,6 +44,8 @@
     };
   </script>
   <body>
-    <canvas id="myChart"></canvas>
+    <div style="padding:10px">
+      <canvas id="myChart"></canvas>
+    </div>
   </body>
 </html>
